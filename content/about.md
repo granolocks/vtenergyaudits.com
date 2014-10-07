@@ -4,7 +4,7 @@ title: About VT Energy Audits
 
 ## About Mark Snyder and VT Energy Audits
 
-<a href="/img/blower.jpg"><img class="round right" src="/img/blower_thumb.jpg"/></a>
+<a href="/img/mark.jpg"><img class="round right" src="/img/mark_thumb.jpg"/></a>
 
 Mark A. Snyder is a fourth generation builder with over 30 years of experience. 
 
@@ -19,12 +19,6 @@ train station in Greensboro Bend, VT. Renovated and optimized for energy
 performance this VT landmark won the [2012 Efficiency Vermont
 Awards](https://www.efficiencyvermont.com/for-our-partners/better-buildings-by-design/Awards/2012-Award-Winners)
 Best of the Best in Home Performance with Energy Star "Best Retrofit" award. 
-
-<ul id="logo-grid" class="small-block-grid-3"> 
-  <li> <img src="/img/bpi.jpg" /> </li> 
-  <li> <img src="/img/ev-logo.gif" /> </li> 
-  <li> <img src="/img/energystar.jpg" /> </li> 
-</ul>
 
 ## What is "Building Science"?
 

@@ -1,5 +1,7 @@
 ## Services
 
+<a href="/img/blower.jpg"><img class="round right" src="/img/blower_thumb.jpg"/></a>
+
 We do everything from certified energy audits and weatherization to new
 high performance building. Our goal is to save energy one house at a
 time and save you money now and over the long haul.  Your house can be
