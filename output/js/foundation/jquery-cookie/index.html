@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VT Energy Audits | Your experienced source for energy savings</title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div id="header" class="row">
+      <div class="large-12 columns">
+        <h1> <a href="/">VT Energy Audits</a> </h1>
+        <nav class="top-bar" data-topbar role="navigation">
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li><a href="tel:8025339839">Call us at 802-533-9839!</a></li>
+            </ul>
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/services">Services</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+    <div class="row"> <div class="large-12 columns"> <br/> </div> </div>
+    <div id="main" class="row">
+      <div class="large-12 columns">
+        /*!
+ * jQuery Cookie Plugin v1.4.1
+ * https://github.com/carhartl/jquery-cookie
+ *
+ * Copyright 2013 Klaus Hartl
+ * Released under the MIT license
+ */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):a("object"==typeof exports?require("jquery"):jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});
+
+      </div>
+    </div>
+    <div id="footer" class="row">
+      <div class="large-12 columns">
+        <p>
+        &copy; 2014 &mdash; Vermont Energy Audits<br/>
+        phone: <strong>802-533-9839</strong> | email: <strong><a href="mailto:info@vtenergyaudits.com">info@vtenergyaudits.com</a></strong>
+        </p>
+      </div>
+    </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation-min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

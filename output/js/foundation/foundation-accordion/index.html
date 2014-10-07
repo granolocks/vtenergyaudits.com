@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VT Energy Audits | Your experienced source for energy savings</title>
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div id="header" class="row">
+      <div class="large-12 columns">
+        <h1> <a href="/">VT Energy Audits</a> </h1>
+        <nav class="top-bar" data-topbar role="navigation">
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li><a href="tel:8025339839">Call us at 802-533-9839!</a></li>
+            </ul>
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/services">Services</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+    <div class="row"> <div class="large-12 columns"> <br/> </div> </div>
+    <div id="main" class="row">
+      <div class="large-12 columns">
+        ;(function ($, window, document, undefined) {
+  'use strict';
+
+  Foundation.libs.accordion = {
+    name : 'accordion',
+
+    version : '5.4.5',
+
+    settings : {
+      active_class: 'active',
+      multi_expand: false,
+      toggleable: true,
+      callback : function () {}
+    },
+
+    init : function (scope, method, options) {
+      this.bindings(method, options);
+    },
+
+    events : function () {
+      var self = this;
+      var S = this.S;
+      S(this.scope)
+      .off('.fndtn.accordion')
+      .on('click.fndtn.accordion', '[' + this.attr_name() + '] > dd > a', function (e) {
+        var accordion = S(this).closest('[' + self.attr_name() + ']'),
+            groupSelector = self.attr_name() + '=' + accordion.attr(self.attr_name()),
+            settings = accordion.data(self.attr_name(true) + '-init'),
+            target = S('#' + this.href.split('#')[1]),
+            aunts = $('> dd', accordion),
+            siblings = aunts.children('.content'),
+            active_content = siblings.filter('.' + settings.active_class);
+        e.preventDefault();
+
+        if (accordion.attr(self.attr_name())) {
+          siblings = siblings.add('[' + groupSelector + '] dd > .content');
+          aunts = aunts.add('[' + groupSelector + '] dd');
+        }
+
+        if (settings.toggleable && target.is(active_content)) {
+          target.parent('dd').toggleClass(settings.active_class, false);
+          target.toggleClass(settings.active_class, false);
+          settings.callback(target);
+          target.triggerHandler('toggled', [accordion]);
+          accordion.triggerHandler('toggled', [target]);
+          return;
+        }
+
+        if (!settings.multi_expand) {
+          siblings.removeClass(settings.active_class);
+          aunts.removeClass(settings.active_class);
+        }
+
+        target.addClass(settings.active_class).parent().addClass(settings.active_class);
+        settings.callback(target);
+        target.triggerHandler('toggled', [accordion]);
+        accordion.triggerHandler('toggled', [target]);
+      });
+    },
+
+    off : function () {},
+
+    reflow : function () {}
+  };
+}(jQuery, window, window.document));
+
+      </div>
+    </div>
+    <div id="footer" class="row">
+      <div class="large-12 columns">
+        <p>
+        &copy; 2014 &mdash; Vermont Energy Audits<br/>
+        phone: <strong>802-533-9839</strong> | email: <strong><a href="mailto:info@vtenergyaudits.com">info@vtenergyaudits.com</a></strong>
+        </p>
+      </div>
+    </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation-min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

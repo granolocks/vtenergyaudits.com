@@ -1,0 +1,3 @@
+#!/bin/bash
+nanoc
+sudo rsync -vrculzOFF output/* /data/scratch/vtenergyaudits.com
