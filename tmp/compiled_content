@@ -1,4 +1,4 @@
-{:	data{4I"/stylesheet/:ET{:default{:	lastI"î* {
+{:	data{8I"/stylesheet/:ET{:default{:	lastI"î* {
   margin: 0;
   padding: 0;
 
@@ -101,7 +101,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"2<!doctype html>
+I"/;T{;{	;I"0<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -167,7 +167,7 @@ I"/;T{;{	;I"2<!doctype html>
 </ul>
 
 <div class="panel">
-  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Schnyder, VT Energy Audits</em> </h4>
+  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Snyder, VT Energy Audits</em> </h4>
 </div>
 
 <ul id="logo-grid" class="small-block-grid-3"> 
@@ -227,7 +227,7 @@ improvements.</p>
     </script>
   </body>
 </html>
-;T;	I"‚	
+;T;	I"€	
 
 <ul id="hero-grid" class="small-block-grid-3"> 
   <li>
@@ -262,7 +262,7 @@ improvements.</p>
 </ul>
 
 <div class="panel">
-  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Schnyder, VT Energy Audits</em> </h4>
+  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Snyder, VT Energy Audits</em> </h4>
 </div>
 
 <ul id="logo-grid" class="small-block-grid-3"> 
@@ -293,7 +293,7 @@ improvements.
 We'll treat you and your home with respect and leave a happy customer.
 
 ;T;
-I"Ä	<ul id="hero-grid" class="small-block-grid-3"> 
+I"Â	<ul id="hero-grid" class="small-block-grid-3"> 
   <li>
     <h4> <a href="/about">Who are we?</a> </h4>
     <p>
@@ -326,7 +326,7 @@ I"Ä	<ul id="hero-grid" class="small-block-grid-3">
 </ul>
 
 <div class="panel">
-  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Schnyder, VT Energy Audits</em> </h4>
+  <h4> "It used to be enough to be a good builder, now you also have to be a building scientist."<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&mdash; Mark Averill Snyder, VT Energy Audits</em> </h4>
 </div>
 
 <ul id="logo-grid" class="small-block-grid-3"> 
@@ -39879,7 +39879,7 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 ;T;	@È;
-@ÈI"/services/;T{;{	;I"Æ<!doctype html>
+@ÈI"/services/;T{;{	;I"ï<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -39953,6 +39953,7 @@ do general renovations and repair work on buildings of all types. </p>
 <li>Odors, air quality, condensation</li>
 <li>Dry, drafts, hard to heat</li>
 </ul></li>
+<li>Lower Door Directed Air Sealing</li>
 </ul>
 
 <h3>High Performance New Construction</h3>
@@ -39996,7 +39997,7 @@ with your new construction project.</p>
     </script>
   </body>
 </html>
-;T;	I"Z## Services
+;T;	I"|## Services
 
 <a href="/img/blower.jpg"><img class="round right" src="/img/blower_thumb.jpg"/></a>
 
@@ -40031,6 +40032,7 @@ do general renovations and repair work on buildings of all types.
   * Mold, mildew, rot
   * Odors, air quality, condensation
   * Dry, drafts, hard to heat
+* Lower Door Directed Air Sealing
 
 ### High Performance New Construction
 
@@ -40042,7 +40044,7 @@ with your new construction project.
 * Energy Effecient Greenhouses
 * Additions & Extensions
 ;T;
-I"2<h2>Services</h2>
+I"[<h2>Services</h2>
 
 <p><a href="/img/blower.jpg"><img class="round right" src="/img/blower_thumb.jpg"/></a></p>
 
@@ -40083,6 +40085,7 @@ do general renovations and repair work on buildings of all types. </p>
 <li>Odors, air quality, condensation</li>
 <li>Dry, drafts, hard to heat</li>
 </ul></li>
+<li>Lower Door Directed Air Sealing</li>
 </ul>
 
 <h3>High Performance New Construction</h3>
@@ -40096,7 +40099,7 @@ with your new construction project.</p>
 <li>Energy Effecient Greenhouses</li>
 <li>Additions &amp; Extensions</li>
 </ul>
-;T;@ÌI"/about/;T{;{	;I",<!doctype html>
+;T;@ÌI"/about/;T{;{	;I"×<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -40149,7 +40152,8 @@ Best of the Best in Home Performance with Energy Star &quot;Best Retrofit&quot; 
 
 <h2>What is &quot;Building Science&quot;?</h2>
 
-<p>Residential construction has changed very little since Marks great grand father
+<p><a href="/img/award-winning-energy-efficient-retrofit-building2.jpg"><img class="round right" src="/img/award-winning-energy-efficient-retrofit-building2-thumb.jpg"/></a>
+Residential construction has changed very little since Marks great grand father
 was a builder in the 1800s.  In those days, builders viewed and built houses as
 a pile of lumber and a series of steps in the correct order.  They were not
 designed for any kind of energy efficiency.</p>
@@ -40204,7 +40208,7 @@ we can now test, scan, and quantify your home like never before.</p>
     </script>
   </body>
 </html>
-;T;	I"¿
+;T;	I"j	
 ## About Mark Snyder and VT Energy Audits
 
 <a href="/img/mark.jpg"><img class="round right" src="/img/mark_thumb.jpg"/></a>
@@ -40225,6 +40229,7 @@ Best of the Best in Home Performance with Energy Star "Best Retrofit" award.
 
 ## What is "Building Science"?
 
+<a href="/img/award-winning-energy-efficient-retrofit-building2.jpg"><img class="round right" src="/img/award-winning-energy-efficient-retrofit-building2-thumb.jpg"/></a>
 Residential construction has changed very little since Marks great grand father
 was a builder in the 1800s.  In those days, builders viewed and built houses as
 a pile of lumber and a series of steps in the correct order.  They were not
@@ -40249,7 +40254,8 @@ we can now test, scan, and quantify your home like never before.
 * [Building Performance Institute](http://www.bpi.com)
 * [Energy Star](http://www.energystar.gov/)
 ;T;
-I"¬	<h2>About Mark Snyder and VT Energy Audits</h2>
+I"W
+<h2>About Mark Snyder and VT Energy Audits</h2>
 
 <p><a href="/img/mark.jpg"><img class="round right" src="/img/mark_thumb.jpg"/></a></p>
 
@@ -40269,7 +40275,8 @@ Best of the Best in Home Performance with Energy Star &quot;Best Retrofit&quot; 
 
 <h2>What is &quot;Building Science&quot;?</h2>
 
-<p>Residential construction has changed very little since Marks great grand father
+<p><a href="/img/award-winning-energy-efficient-retrofit-building2.jpg"><img class="round right" src="/img/award-winning-energy-efficient-retrofit-building2-thumb.jpg"/></a>
+Residential construction has changed very little since Marks great grand father
 was a builder in the 1800s.  In those days, builders viewed and built houses as
 a pile of lumber and a series of steps in the correct order.  They were not
 designed for any kind of energy efficiency.</p>
@@ -40345,7 +40352,7 @@ I"/<h1>fuck</h1>
 <h2>shit</h2>
 
 <p>damn</p>
-;T;@ØI"/css/styles/;T{;{;I"div#header{
+;T;@ØI"/css/styles/;T{;{;I"=div#header{
   background-image: url('/img/banner.jpg');
   background-size: 100% 100%;
   height: 200px;
@@ -40398,9 +40405,14 @@ div#footer {
   text-align: center;
 }
 
+div#footer {
+  padding-top: 1em;
+  text-align: center;
+}
+
 #logo-grid li img{
   vertical-align: middle;
 
 }
 ;T;	@Þ;
-@ÞI"/img/energystar/;T{;{ I"/img/ev-logo/;T{;{ I"/img/bpi/;T{;{ :versioni
+@ÞI"/img/energystar/;T{;{ I"/img/ev-logo/;T{;{ I"/img/bpi/;T{;{ I";/img/award-winning-energy-efficient-retrofit-building/;T{;{ I"A/img/award-winning-energy-efficient-retrofit-building-thumb/;T{;{ I"</img/award-winning-energy-efficient-retrofit-building2/;T{;{ I"B/img/award-winning-energy-efficient-retrofit-building2-thumb/;T{;{ :versioni

@@ -51,6 +51,11 @@ div#footer {
   text-align: center;
 }
 
+div#footer {
+  padding-top: 1em;
+  text-align: center;
+}
+
 #logo-grid li img{
   vertical-align: middle;
 

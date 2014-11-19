@@ -22,6 +22,7 @@ Best of the Best in Home Performance with Energy Star "Best Retrofit" award.
 
 ## What is "Building Science"?
 
+<a href="/img/award-winning-energy-efficient-retrofit-building2.jpg"><img class="round right" src="/img/award-winning-energy-efficient-retrofit-building2-thumb.jpg"/></a>
 Residential construction has changed very little since Marks great grand father
 was a builder in the 1800s.  In those days, builders viewed and built houses as
 a pile of lumber and a series of steps in the correct order.  They were not
