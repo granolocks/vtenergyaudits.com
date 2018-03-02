@@ -1,36 +1,39 @@
-Crashlog created at 2018-02-20 21:16:02 -0500
+Crashlog created at 2018-03-01 08:31:02 -0500
 
 ===== MESSAGE:
 
-NameError: uninitialized constant Adsf::Server
-Did you mean?  TCPServer
+SyntaxError: /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/cri-2.9.1/lib/cri/command.rb:46: syntax error, unexpected tLABEL, expecting ')'
+      def initialize(is_error:)
+                              ^
+/home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/cri-2.9.1/lib/cri/command.rb:232: syntax error, unexpected tLABEL
+    def command_named(name, hard_exit: true)
+                                      ^
+/home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/cri-2.9.1/lib/cri/command.rb:258: syntax error, unexpected tLABEL
+    def run(opts_and_args, parent_opts = {}, hard_exit: true)
+                                                       ^
+
+===== COMPILATION STACK:
+
+  (empty)
 
 ===== STACK TRACE:
 
-  0. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/commands/view.rb:29:in `run'
-  1. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  2. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:15:in `block in handle_while'
-  3. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:57:in `handle_while'
-  4. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:15:in `handle_while'
-  5. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/command_runner.rb:13:in `call'
-  6. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/cri-2.10.1/lib/cri/command_dsl.rb:256:in `block in runner'
-  7. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/cri-2.10.1/lib/cri/command.rb:329:in `run_this'
-  8. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/cri-2.10.1/lib/cri/command.rb:269:in `run'
-  9. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/cri-2.10.1/lib/cri/command.rb:287:in `run'
-  10. /home/belgarath/.rvm/gems/ruby-2.3.3@global/gems/nanoc-4.8.19/lib/nanoc/cli.rb:63:in `block in run'
-  11. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:15:in `block in handle_while'
-  12. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:57:in `handle_while'
-  13. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/gems/nanoc-4.8.19/lib/nanoc/cli/error_handler.rb:15:in `handle_while'
-  14. /home/belgarath/.rvm/gems/ruby-2.3.3@global/gems/nanoc-4.8.19/lib/nanoc/cli.rb:61:in `run'
-  15. /home/belgarath/.rvm/gems/ruby-2.3.3@global/gems/nanoc-4.8.19/bin/nanoc:18:in `<top (required)>'
-  16. /home/belgarath/.rvm/gems/ruby-2.3.3/bin/nanoc:22:in `load'
-  17. /home/belgarath/.rvm/gems/ruby-2.3.3/bin/nanoc:22:in `<main>'
-  18. /home/belgarath/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `eval'
+  0. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli.rb:161:in `load_command_at'
+  1. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli.rb:105:in `setup_commands'
+  2. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli.rb:91:in `setup'
+  3. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli.rb:57:in `block in run'
+  4. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  5. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  6. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib/nanoc/cli.rb:56:in `run'
+  7. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/bin/nanoc:25:in `<top (required)>'
+  8. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin/nanoc:23:in `load'
+  9. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin/nanoc:23:in `<main>'
+  10. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
 
 ===== VERSION INFORMATION:
 
-Nanoc 4.8.19 © 2007-2017 Denis Defreyne.
-Running ruby 2.3.3 (2016-11-21) on x86_64-linux with RubyGems 2.5.2.
+nanoc 3.8.0 © 2007-2015 Denis Defreyne.
+Running ruby 1.9.3 (2014-11-13) on x86_64-linux with RubyGems 2.6.12.
 
 ===== SYSTEM INFORMATION:
 
@@ -38,89 +41,162 @@ Linux vale 4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018 
 
 ===== INSTALLED GEMS:
 
-  addressable 2.5.2
-  adsf 1.1.1
-  bundler 1.16.1
+  adsf 1.2.1
+  builder 3.2.3
+  bundler 1.15.4
+  coderay 1.1.2
   colored 1.2
-  concurrent-ruby 1.0.5
-  cri 2.10.1
-  ddmemoize 1.0.0a3
-  ddplugin 1.0.1
-  ddtelemetry 1.0.0a2
-  hamster 3.0.0
-  nanoc 4.8.19
-  public_suffix 3.0.1
-  rack 1.6.4
-  ref 2.0.0
-  slow_enumerator_tools 1.1.0
+  cri 2.9.1
+  method_source 0.9.0
+  nanoc 3.8.0
+  pry 0.11.3
+  rack 1.6.9
+  redcarpet 3.4.0
+
+===== ENVIRONMENT:
+
+BUNDLER_ORIG_GEM_PATH => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551:/home/belgarath/.rvm/gems/ruby-1.9.3-p551@global"
+BUNDLER_ORIG_PATH => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin:/home/belgarath/.rvm/gems/ruby-1.9.3-p551@global/bin:/home/belgarath/.rvm/rubies/ruby-1.9.3-p551/bin:/home/belgarath/.rvm/bin:/home/belgarath/bin:/home/belgarath/.local/bin:/home/belgarath/bin:/usr/sbin:/sbin:/home/belgarath/bin:/home/belgarath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+BUNDLER_VERSION => "1.15.4"
+BUNDLE_BIN_PATH => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/bundler-1.15.4/exe/bundle"
+BUNDLE_GEMFILE => "/home/belgarath/code/www/vtenergyaudits.com/Gemfile"
+CLUTTER_IM_MODULE => "xim"
+COMPIZ_CONFIG_PROFILE => "ubuntu"
+DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-GsRMruTWkN"
+DEFAULTS_PATH => "/usr/share/gconf/ubuntu.default.path"
+DESKTOP_SESSION => "ubuntu"
+DISPLAY => ":0"
+EDITOR => "/user/bin/vim"
+EVENT_NOEPOLL => "1"
+GDMSESSION => "ubuntu"
+GDM_LANG => "en_US"
+GEM_HOME => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551"
+GEM_PATH => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551:/home/belgarath/.rvm/gems/ruby-1.9.3-p551@global"
+GNOME_DESKTOP_SESSION_ID => "this-is-deprecated"
+GNOME_KEYRING_CONTROL => ""
+GNOME_KEYRING_PID => ""
+GPG_AGENT_INFO => "/home/belgarath/.gnupg/S.gpg-agent:0:1"
+GTK2_MODULES => "overlay-scrollbar"
+GTK_IM_MODULE => "ibus"
+GTK_MODULES => "gail:atk-bridge:unity-gtk-module"
+HOME => "/home/belgarath"
+IM_CONFIG_PHASE => "1"
+INSTANCE => "Unity"
+IRBRC => "/home/belgarath/.rvm/rubies/ruby-1.9.3-p551/.irbrc"
+JAVA_HOME => "/usr/lib/jvm/java-8-openjdk-amd64"
+JOB => "gnome-session"
+LANG => "en_US.UTF-8"
+LANGUAGE => "en_US"
+LESSCLOSE => "/usr/bin/lesspipe %s %s"
+LESSOPEN => "| /usr/bin/lesspipe %s"
+LOGNAME => "belgarath"
+MANDATORY_PATH => "/usr/share/gconf/ubuntu.mandatory.path"
+MY_RUBY_HOME => "/home/belgarath/.rvm/rubies/ruby-1.9.3-p551"
+OLDPWD => "/home/belgarath/code/www/vtenergyaudits.com/content"
+PATH => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin:/home/belgarath/.rvm/gems/ruby-1.9.3-p551@global/bin:/home/belgarath/.rvm/rubies/ruby-1.9.3-p551/bin:/home/belgarath/.rvm/bin:/home/belgarath/bin:/home/belgarath/.local/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/games:/snap/bin"
+PS1 => "\\[\\e[1;34m\\]\\u\\[\\e[0;32m\\]@\\[\\033[0;31m\\]\\h\\[\\e[0;32m\\]:\\[\\e[0;34m\\]\\w\\[\\e[0;35m\\]$(__git_ps1)\\[\\e[0;32m\\]$ \\[\\033[0m\\]"
+PWD => "/home/belgarath/code/www/vtenergyaudits.com"
+QT4_IM_MODULE => "xim"
+QT_ACCESSIBILITY => "1"
+QT_IM_MODULE => "ibus"
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON => "1"
+QT_QPA_PLATFORMTHEME => "appmenu-qt5"
+RUBYLIB => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/bundler-1.15.4/lib"
+RUBYOPT => "-rbundler/setup"
+RUBY_VERSION => "ruby-1.9.3-p551"
+SESSIONTYPE => "gnome-session"
+SHELL => "/bin/bash"
+SHLVL => "2"
+SSH_AUTH_SOCK => "/run/user/1000/keyring/ssh"
+TASKS_CODE_DIR => "/home/snufkin/code/personal/tasks/lib"
+TERM => "screen"
+TMUX => "/tmp/tmux-1000/default,2046,0"
+TMUX_PANE => "%14"
+UPSTART_EVENTS => "started starting"
+UPSTART_INSTANCE => ""
+UPSTART_JOB => "unity-settings-daemon"
+UPSTART_SESSION => "unix:abstract=/com/ubuntu/upstart-session/1000/1487"
+USER => "belgarath"
+VTE_VERSION => "4205"
+WINDOWID => "56623114"
+XAUTHORITY => "/home/belgarath/.Xauthority"
+XDG_CONFIG_DIRS => "/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"
+XDG_CURRENT_DESKTOP => "Unity"
+XDG_DATA_DIRS => "/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"
+XDG_GREETER_DATA_DIR => "/var/lib/lightdm-data/belgarath"
+XDG_RUNTIME_DIR => "/run/user/1000"
+XDG_SEAT => "seat0"
+XDG_SEAT_PATH => "/org/freedesktop/DisplayManager/Seat0"
+XDG_SESSION_DESKTOP => "ubuntu"
+XDG_SESSION_ID => "c2"
+XDG_SESSION_PATH => "/org/freedesktop/DisplayManager/Session0"
+XDG_SESSION_TYPE => "x11"
+XDG_VTNR => "7"
+XMODIFIERS => "@im=ibus"
+_ => "/home/belgarath/.rvm/gems/ruby-1.9.3-p551/bin/nanoc"
+_system_arch => "x86_64"
+_system_name => "Ubuntu"
+_system_type => "Linux"
+_system_version => "16.04"
+rvm_bin_path => "/home/belgarath/.rvm/bin"
+rvm_path => "/home/belgarath/.rvm"
+rvm_prefix => "/home/belgarath"
+rvm_version => "1.29.1 (latest)"
 
 ===== GEMFILE.LOCK:
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
-    adsf (1.1.1)
+    adsf (1.2.1)
       rack (>= 1.0.0)
+    builder (3.2.3)
+    coderay (1.1.2)
     colored (1.2)
-    concurrent-ruby (1.0.5)
-    cri (2.10.1)
+    cri (2.9.1)
       colored (~> 1.2)
-    ddmemoize (1.0.0a3)
-      ddtelemetry (= 1.0.0a2)
-      ref (~> 2.0)
-    ddplugin (1.0.1)
-    ddtelemetry (1.0.0a2)
-    hamster (3.0.0)
-      concurrent-ruby (~> 1.0)
-    nanoc (4.8.19)
-      addressable (~> 2.5)
-      cri (~> 2.8)
-      ddmemoize (= 1.0.0a3)
-      ddplugin (~> 1.0)
-      ddtelemetry (= 1.0.0a2)
-      hamster (~> 3.0)
-      ref (~> 2.0)
-      slow_enumerator_tools (~> 1.0)
-    public_suffix (3.0.1)
-    rack (1.6.4)
-    ref (2.0.0)
-    slow_enumerator_tools (1.1.0)
+    method_source (0.9.0)
+    nanoc (3.8.0)
+      cri (~> 2.3)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rack (1.6.9)
+    redcarpet (3.4.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   adsf
+  builder
   nanoc
+  pry
+  redcarpet
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
 
 ===== LOAD PATHS:
 
-  0. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/ref-2.0.0/lib
-  1. /home/belgarath/.rvm/gems/ruby-2.3.3@global/gems/bundler-1.16.1/lib
-  2. /home/belgarath/.rvm/gems/ruby-2.3.3@global/gems/nanoc-4.8.19/lib
-  3. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/slow_enumerator_tools-1.1.0/lib
-  4. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/hamster-3.0.0/lib
-  5. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/ddplugin-1.0.1/lib
-  6. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/ddmemoize-1.0.0a3/lib
-  7. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/ref-2.0.0/lib
-  8. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/ddtelemetry-1.0.0a2/lib
-  9. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/cri-2.10.1/lib
-  10. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib
-  11. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/colored-1.2/lib
-  12. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/adsf-1.1.1/lib
-  13. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/rack-1.6.4/lib
-  14. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/addressable-2.5.2/lib
-  15. /home/belgarath/.rvm/gems/ruby-2.3.3/gems/public_suffix-3.0.1/lib
-  16. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0
-  17. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/x86_64-linux
-  18. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby
-  19. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/vendor_ruby/2.3.0
-  20. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/vendor_ruby/2.3.0/x86_64-linux
-  21. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/vendor_ruby
-  22. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0
-  23. /home/belgarath/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-linux
+  0. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib
+  1. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/bundler-1.15.4/lib
+  2. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/redcarpet-3.4.0/lib
+  3. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/extensions/x86_64-linux/1.9.1/redcarpet-3.4.0
+  4. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/pry-0.11.3/lib
+  5. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/nanoc-3.8.0/lib
+  6. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/method_source-0.9.0/lib
+  7. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/cri-2.9.1/lib
+  8. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/colored-1.2/lib
+  9. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/coderay-1.1.2/lib
+  10. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/builder-3.2.3/lib
+  11. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/adsf-1.2.1/lib
+  12. /home/belgarath/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.6.9/lib
+  13. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1
+  14. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/x86_64-linux
+  15. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby
+  16. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/vendor_ruby/1.9.1
+  17. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+  18. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/vendor_ruby
+  19. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1
+  20. /home/belgarath/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/x86_64-linux

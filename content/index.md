@@ -5,11 +5,12 @@ title: Home
 
 <ul id="hero-grid" class="small-block-grid-3"> 
   <li>
-    <h4> <a href="/about">Who are we?</a> </h4>
+    <h3> <a href="/about">Who are we?</a> </h4>
     <p>
       VT Energy Audits is the premiere one stop shop for energy auditing, high
-      performance renovation & building in Central Vermont.
+      performance renovation & building in the Northeast Kingdom of Vermont.
     </p>
+
     <p>
       Based out of an award winning retrofit train depot we service primarily
       the Greensboro, Hardwick & Craftsbury area.
@@ -41,7 +42,7 @@ title: Home
 
 <ul id="logo-grid" class="small-block-grid-3"> 
   <li> <img src="/img/bpi.jpg" /> </li> 
-  <li> <img src="/img/ev-logo.gif" /> </li> 
+  <li> <img src="/img/een.png" /> </li> 
   <li> <img src="/img/energystar.jpg" /> </li> 
 </ul>
 

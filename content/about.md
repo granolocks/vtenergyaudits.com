@@ -16,9 +16,17 @@ budget.
 
 The headquarters of VT Energy Audits are located in an award winning historic
 train station in Greensboro Bend, VT. Renovated and optimized for energy
-performance this VT landmark won the [2012 Efficiency Vermont
-Awards](https://www.efficiencyvermont.com/for-our-partners/better-buildings-by-design/Awards/2012-Award-Winners)
-Best of the Best in Home Performance with Energy Star "Best Retrofit" award. 
+performance this VT landmark won the 2012 Efficiency Vermont Awards Best of the
+Best in Home Performance with Energy Star "Best Retrofit" award. 
+
+## Award Wining Efficiency 
+
+Mark A. Snyder and VT Energy Audits has won multiple awards over the years for
+excellence in efficiency renovation. 
+
+* 2012 Efficiency Vermont Best of the Best Merit Award -- Historic Train Depot
+* 2016 Efficiency Vermont Best of the Best Honor Award -- Thorne Home
+* 2018 Efficiency Vermont Best of the Best Merit Award -- Kehler Home
 
 ## What is "Building Science"?
 

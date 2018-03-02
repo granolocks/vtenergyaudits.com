@@ -1,41 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
-    adsf (1.1.1)
+    adsf (1.2.1)
       rack (>= 1.0.0)
+    builder (3.2.3)
+    coderay (1.1.2)
     colored (1.2)
-    concurrent-ruby (1.0.5)
-    cri (2.10.1)
+    cri (2.9.1)
       colored (~> 1.2)
-    ddmemoize (1.0.0a3)
-      ddtelemetry (= 1.0.0a2)
-      ref (~> 2.0)
-    ddplugin (1.0.1)
-    ddtelemetry (1.0.0a2)
-    hamster (3.0.0)
-      concurrent-ruby (~> 1.0)
-    nanoc (4.8.19)
-      addressable (~> 2.5)
-      cri (~> 2.8)
-      ddmemoize (= 1.0.0a3)
-      ddplugin (~> 1.0)
-      ddtelemetry (= 1.0.0a2)
-      hamster (~> 3.0)
-      ref (~> 2.0)
-      slow_enumerator_tools (~> 1.0)
-    public_suffix (3.0.1)
-    rack (1.6.4)
-    ref (2.0.0)
-    slow_enumerator_tools (1.1.0)
+    method_source (0.9.0)
+    nanoc (3.8.0)
+      cri (~> 2.3)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rack (1.6.9)
+    redcarpet (3.4.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   adsf
+  builder
   nanoc
+  pry
+  redcarpet
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
